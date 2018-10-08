@@ -3,7 +3,7 @@
 $app = require(__DIR__.'/../app.php');
 
 $app->register(new SilexGuzzle\GuzzleServiceProvider(), [
-   'guzzle.base_uri' => 'https://bomberman-prod.herokuapp.com/api/v1/profanity/',
+   'guzzle.base_uri' => '',
    'guzzle.timeout' => 5,
    'guzzle.request_options' => [
        'headers' => [
